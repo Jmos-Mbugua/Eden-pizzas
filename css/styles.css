@@ -1,6 +1,6 @@
 .nav {
     height: 100%;
-    background-image: url(https://www.athenspizzaonline.com/jsimages/Pizza3.jpg);
+    background-image:url(../assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

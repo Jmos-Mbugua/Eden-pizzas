@@ -1,17 +1,83 @@
 .nav {
     height: 100%;
-    background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4977547/910/578/m2/fpnw/wm1/lc0ovhgpu9wsxspr8ahto5rfykq0njbferbzcbwsl4y4chzz0hekgbmypdka1chs-.jpg?1535696513&s=d2bfd9c580c6ea9a9435cf81b5d42a35);
+    background-image: url(https://www.athenspizzaonline.com/jsimages/Pizza3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 nav {
-    background: transparent;
+    background-color: black;
+    position: fixed;
 }
-.container h3, p{
-    /* color: white; */
+#landing-page{
+    color: white;
+    height: 150px;
     text-align: center;
+    font-size: 20px;
+    font-family: 'Damion', cursive;
+    margin-bottom: 300px;
+    margin-left: 400px;
+    
+}
+#landing-page > h3 {
+    margin-top: 100px;
+    font-size: 80px;   
+}
+#landing-page > p {
+    color: green;
+    font-size: 30px;
+    
 }
 .card {
     background: transparent;
+}
+
+#about {
+    height: 400px;    
+    background-size: cover;
+    width: 100%;
+    margin-top: -29px;
+}
+
+#welcome {
+    float: left;
+    width: 50%;     
+    height: 400px; 
+    background-size: cover;
+    background-color: black;
+    padding-left: 0;
+}
+#welcome h3{
+    padding-top: 100px;
+    padding-left:100px;
+    font-family: 'Damion', cursive;
+    color: #efff4e;
+}
+
+#welcome-para p{
+    text-align: center;
+}
+
+#welcome-para h3{
+    text-align: center;
+    padding-top: 70px;  
+    
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+h6 {
+    margin-top: -18px;
+    font-weight: bold;
+    margin-left: 3px;
+    font-size: 18px;
+    color: black;
+    font-style: italic;    
+}
+
+button {    
+    border-radius: 0.8;
 }

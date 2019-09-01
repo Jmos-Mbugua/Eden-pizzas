@@ -15,19 +15,22 @@
 
 <body>
     <div class="nav">
-        <nav>
+        <nav class="fixed-top bg-black">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo">Eden <span>Pizzas</span></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Home</a></li>
-                    <li><a href="badges.html">Menu</a></li>
-                    <li><a href="collapsible.html">Contact Us</a></li>
+                    <li><a href="#landing-page">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contacts">Contact Us</a></li>
+                    <li><button type="submit" class="btn btn-primary btn-small">CheckOut</button></li>
                 </ul>
             </div>
         </nav>
         <div id="landing-page">
+                <hr>
             <h3>Eden Pizzas</h3>
             <p>Delicious.Quality. Convenient.</p>
+            <hr class="divider">
         </div>
     </div>
     <div id="about">
@@ -45,7 +48,7 @@
     <div style="text-align: center">
         <h3>Our Menu</h3>
     </div>
-    <div class="row">
+    <div class="row" id="menu">
         <div class="col-md-3">
             <div class="card" style="width: 17rem;">
                 <img src="assets/Neopolitanpizza.jpg" class="card-img-top" alt="Neopolitan Pizza">
@@ -66,7 +69,7 @@
                                 <option>Crispy - Kshs. 150</option>
                                 <option>Stuffed - Kshs. 200</option>
                                 <option>Glutten-Free - Kshs. 200</option>
-                                
+
                             </select>
                         </div>
                         <div class="form-group">
@@ -81,7 +84,7 @@
                             </select>
                         </div>
                         <div>
-                            <span><button type="submit" class="btn btn-primary btn-small">Place Order</button></span>
+                            <span><button type="submit" class="btn btn-primary btn-small" id="button">Place Order</button></span>
                         </div>
                     </form>
                 </div>
@@ -108,7 +111,7 @@
                                 <option>Crispy - Kshs. 150</option>
                                 <option>Stuffed - Kshs. 200</option>
                                 <option>Glutten-Free - Kshs. 200</option>
-                                
+
                             </select>
                         </div>
                         <div class="form-group">
@@ -123,7 +126,7 @@
                             </select>
                         </div>
                         <div>
-                            <span><button type="submit" class="btn btn-primary btn-small">Place Order</button></span>
+                            <span><button type="submit" class="btn btn-primary btn-small" id="button">Place Order</button></span>
                         </div>
                     </form>
                 </div>
@@ -150,7 +153,7 @@
                                 <option>Crispy - Kshs. 150</option>
                                 <option>Stuffed - Kshs. 200</option>
                                 <option>Glutten-Free - Kshs. 200</option>
-                                
+
                             </select>
                         </div>
                         <div class="form-group">
@@ -165,9 +168,9 @@
                             </select>
                         </div>
                         <div>
-                            <span><button type="submit" class="btn btn-primary btn-small">Place Order</button></span>
+                            <span><button type="submit" class="btn btn-primary btn-small" id="button">Place Order</button></span>
                         </div>
-                    </form>                    
+                    </form>
                 </div>
             </div>
         </div>
@@ -192,7 +195,7 @@
                                 <option>Crispy - Kshs. 150</option>
                                 <option>Stuffed - Kshs. 200</option>
                                 <option>Glutten-Free - Kshs. 200</option>
-                                
+
                             </select>
                         </div>
                         <div class="form-group">
@@ -207,16 +210,48 @@
                             </select>
                         </div>
                         <div>
-                            <span><button type="submit" class="btn btn-primary btn-small">Place Order</button></span>
+                            <span><button type="submit" class="btn btn-primary btn-small" id="button">Place Order</button></span>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-        
+    <div class="shopcart">
+        <h5>Order Your Pizza</h5>
+        <div id="shop">
 
-    
+        </div>
+    </div>
+    <footer id="contacts">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mt-0">Get In Touch With Us!</h2>
+                    <hr class="divider">
+                    <p class="text-muted mb-5">Any inquiries, comments or suggestions? Contact us through:</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                    <i class='far fa-comment-alt' style='font-size:48px;color:red'></i>
+                    <div>+254 (702) 185 792</div>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class='far fa-envelope' style='font-size:48px;color:red'></i>
+                    <a class="d-block" href="mailto:johnmbugua849@gmail.com">edenpizzas@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="small text-center text-muted">Copyright &copy; 2019 - Pizzatown</div>
+        </div>
+
+    </footer>
+
+
+
+
 
 
 

@@ -1,0 +1,17 @@
+.nav {
+    height: 100%;
+    background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4977547/910/578/m2/fpnw/wm1/lc0ovhgpu9wsxspr8ahto5rfykq0njbferbzcbwsl4y4chzz0hekgbmypdka1chs-.jpg?1535696513&s=d2bfd9c580c6ea9a9435cf81b5d42a35);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background: transparent;
+}
+.container h3, p{
+    /* color: white; */
+    text-align: center;
+}
+.card {
+    background: transparent;
+}

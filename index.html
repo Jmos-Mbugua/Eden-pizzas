@@ -44,8 +44,9 @@
         </div>
         <div id="welcome-para">
             <h3>About us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint vitae maxime eum deleniti, rem id, hic illo
-                fugiat ipsum voluptates nulla qui temporibus obcaecati sed rerum quibusdam molestias adipisci!</p>
+            <p>Eden Pizza brings you the best and the most delicious pizza in town. We offer ensure you get quality 
+                services through our staff who are professional and also ensure pizza is brought to you at your convenience.
+            </p>
         </div>
 
     </div>
@@ -59,18 +60,18 @@
                 <img src="assets/Neopolitanpizza.jpg" class="card-img-top" alt="Neopolitan Pizza">
                 <h6>Neopolitan Pizza <span></span></h6>
                 <div class="card-body">
-                    <form>
+                    <form id="userChoice">
                         <div class="form-group">
-                            <label for="exampleFormControlSelect1">Size</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="pizza-size">Size</label>
+                            <select class="form-control" id="inputtedSize">
                                 <option>small - Kshs. 500</option>
                                 <option>medium - Kshs. 750</option>
                                 <option>large - Kshs. 1000</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect1">Crust</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="pizza-crust">Crust</label>
+                            <select class="form-control" id="inputtedCrust">
                                 <option>Crispy - Kshs. 150</option>
                                 <option>Stuffed - Kshs. 200</option>
                                 <option>Glutten-Free - Kshs. 200</option>
@@ -78,8 +79,8 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect1">Toppings</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="Toppings">Toppings</label>
+                            <select class="form-control" id="inputtedToppings">
                                 <option>Pepperoni - kshs. 100</option>
                                 <option>Mushrooms - Kshs. 100</option>
                                 <option>Bacon - Kshs. 100</option>
@@ -89,7 +90,7 @@
                             </select>
                         </div>
                         <div>
-                            <span><button type="submit" class="btn btn-primary btn-small" id="button">Place Order</button></span>
+                            <span><button type="submit" class="btn btn-primary btn-small" id="button" onclick="mySize()">Place Order</button></span>
                         </div>
                     </form>
                 </div>
@@ -224,6 +225,9 @@
     </div>
     <div class="shopcart">
         <h5>Order Your Pizza</h5>
+        <ul id="orderCart">
+
+        </ul>
         <div id="shop">
 
         </div>
